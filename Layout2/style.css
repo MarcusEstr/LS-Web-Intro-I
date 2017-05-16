@@ -1,0 +1,32 @@
+.container .Top {
+  background-color: red; 
+  height: 150px;
+  width: 1200px;
+}
+.container { /*Container is used to encapsulate the Left/Center/Right div elements within it. This way, they can coexist horizontally. Without container, they appear to "stack."*/
+  display: flex; /*The elements resize according to window size*/
+}
+
+.container .Left {
+  background-color: blue; 
+  width: 400px;
+  height: 800px;
+}
+
+.container .Center {
+  background-color: purple; 
+  width: 400px;
+  height: 800px;
+}
+
+.container .Right {
+  background-color: yellow;
+  width: 400px;
+  height: 800px;
+}
+
+.container #Midbottom{
+  background-color: green;
+  height: 150px;
+  width: 1200px;
+}
