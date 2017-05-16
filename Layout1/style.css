@@ -1,0 +1,23 @@
+.Top {
+  background-color: red; /*darkgrey*/
+  height: 150px;
+}
+
+.Middle {
+  background-color: yellow;
+  height: 100%;
+}
+
+#Midcenter {
+  background-color: blue; /*Offwhite*/
+  width: 800px;
+  height: 1050px;
+  margin: auto; /*Centers div*/
+}
+
+#Midbottom{
+  background-color: green; /*darkergrey*/
+  height: 75px;
+  width: 800px;
+  margin: auto;
+}
